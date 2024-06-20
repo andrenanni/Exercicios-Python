@@ -1,0 +1,31 @@
+# Virtualenv
+venv/
+
+# pipenv
+.venv/
+
+# Poetry
+.venv/
+
+# Arquivos de configuração de IDE
+.idea/
+.vscode/
+
+# Arquivos gerados pelo Flask
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*~
+
+# Arquivos de banco de dados SQLite
+*.sqlite
+
+# Arquivos de build e logs de criação
+build/
+dist/
+*.egg-info/
+
+# Arquivos de configuração locais
+.flaskenv
+.env
